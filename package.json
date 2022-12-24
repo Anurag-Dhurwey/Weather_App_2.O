@@ -1,0 +1,16 @@
+{
+  "name": "weather-app_2.o",
+  "version": "1.0.0",
+  "description": "this is a Weather_2.O app it is a sequal of weather app which was made by node_js . now this app includes a node js framework Express_js . this is a Updated app with Express.js . ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "anurag dhurwey",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "requests": "^0.3.0"
+  }
+}
