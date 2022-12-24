@@ -49,26 +49,26 @@ background: white;
 width: 150rem;
 height: 150rem;
 margin-left: -25rem;
-margin-top: -25rem;
+margin-top: -15rem;
 transform-origin: 40% 50%;
-border-radius: 50%;
-animation: drift 2000ms infinite linear;
+border-radius: 40%;
+animation: drift 8000ms infinite linear;
 z-index: 1;
 }
 
 .wave.-third {
-animation: drift 4000ms infinite linear;
+animation: drift 10000ms infinite linear;
 z-index: 2 !important;
 opacity: 0.2;
 } 
 
 .wave.-second {
-animation: drift 6000ms infinite linear;
+animation: drift 12000ms infinite linear;
 opacity: 0.3;
 z-index: 3 !important;
 }
 .wave.-fourth{
-animation: drift 8000ms infinite linear;
+animation: drift 14000ms infinite linear;
 z-index: 4 !important;
 opacity: 0.4;
 }
@@ -109,12 +109,12 @@ font-size: 3rem;
 
 .fa-street-view {
 padding-right: 10px;
-animation: rotates 3s linear infinite alternate;
+animation: rotates 4s linear infinite alternate;
 }
 
 @keyframes rotates {
 from {
-transform: translateX(-0.5rem);
+transform: translateX(-1rem);
 }
 to {
 transform: translateX(0.5rem);
@@ -125,7 +125,8 @@ transform: translateX(0.5rem);
 text-align: center;
 margin-top: 0.5rem;
 color: #57606f;
-font-size: 1.2rem;
+font-size: 2rem;
+font-weight: bolder;
 font-weight: 300;
 text-transform: uppercase;
 }
@@ -140,7 +141,8 @@ font-size: 3rem;
 text-align: center;
 margin-top: 0.3rem;
 font-weight: 300;
-font-size: 1.2rem;
+font-size: 2rem;
+font-weight: bolder;
 color: #57606f;
 }
 
@@ -154,15 +156,15 @@ font-size: 3em;
 
 #weathercon .fa-solid {
 font-size: 6rem;
-animation: fas-anime 3s linear infinite alternate;
+animation: fas-anime 15s linear infinite alternate;
 }
 
 @keyframes fas-anime {
 from {
-transform: scale(1.1);
+transform: scale(.5);
 }
 to {
-transform: scale(1.5);
+transform: scale(3);
 }
 }
 
